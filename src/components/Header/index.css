@@ -1,0 +1,19 @@
+.header-card {
+  display: flex;
+  justify-content: space-between;
+}
+.wave-card {
+  display: flex;
+}
+.wave-heading {
+  margin-left: 10px;
+}
+.headings-card {
+  display: flex;
+  list-style-type: none;
+}
+.wave-heading1 {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #6d396b;
+}

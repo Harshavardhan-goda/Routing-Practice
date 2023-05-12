@@ -1,0 +1,30 @@
+/* eslint-disable arrow-body-style */
+import {Link} from 'react-router-dom'
+import './index.css'
+
+const Header = () => {
+  return (
+    <div className="header-card">
+      <div className="wave-card">
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/wave-logo-img.png"
+          alt="wave"
+        />
+        <h1 className="wave-heading">Wave</h1>
+      </div>
+      <ul className="headings-card">
+        <li className="wave-heading1">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="wave-heading1">
+          <Link to="/about">About</Link>
+        </li>
+        <li className="wave-heading1">
+          <Link to="/contact">Contact</Link>
+        </li>
+      </ul>
+    </div>
+  )
+}
+
+export default Header
